@@ -52,17 +52,14 @@ public class BitmapUtilsActivity extends Activity {
 		 mAlphaAnimation.setDuration(2*100);
 		 mBitmapDisplayConfig.setAnimation(mAlphaAnimation);
 		 mBitmapDisplayConfig.setBitmapConfig(Config.RGB_565);
+		 
 		 //设置显示
 		 mBitmapUtils.display(bitmapUtils_IV, WEB_URL, mBitmapDisplayConfig);
 		 mBitmapUtils.configDefaultBitmapMaxSize(50, 50);
 		 mBitmapUtils.configDefaultCacheExpiry(30*1000);
 		 mBitmapUtils.configDefaultLoadFailedImage(R.drawable.ic_launcher);
 		 mBitmapUtils.configDefaultLoadingImage(R.drawable.ic_launcher);
-		 
-		 
-		 
-		 
-		 
+		 	 
 	}
 
 }
